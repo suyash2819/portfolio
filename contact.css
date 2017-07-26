@@ -1,0 +1,52 @@
+body{
+  
+  margin: 0;
+  padding: 0;
+}
+.container{
+  width: 100%;
+}
+.pic img{
+  height: 100%;
+  width: 100%;
+}
+.pic{
+  padding: 0;
+}
+.contact
+{
+  background-color: #bdc3c7;
+  height: 676px;
+}
+.contact_info h1
+{
+  font-family: 'Lato', sans-serif;
+  color: black;
+}
+.contact_info
+{
+  //background: rgba(130,130,130,.4);
+  font-family: 'Bellefair', serif;
+  font-size:30px;
+  color: white;
+  position: absolute;
+  top: 30%;
+  left: 10%;
+}
+#front
+{
+  font-family: 'Bellefair', serif;
+
+  margin-left: 45%;;
+  text-decoration: none;
+  border-radius: 15px;
+  background-color:#c0392b;
+  padding: 2px 6px 2px 6px;
+  text-align: center;
+  font-size: 30px;
+}
+#front:hover{
+box-shadow: 3px 3px 3px black;
+text-decoration: none;
+color: white
+}

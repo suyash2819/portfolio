@@ -1,0 +1,85 @@
+body,html{
+  min-height: 100%;
+  height: 100%;
+  margin: 0;
+  font-family: 'Bellefair', serif;
+}
+.container
+{
+  width: 100%;
+}
+.interest
+{
+  height: 300px;
+  background-color: #d35400;
+}
+.a_interest
+{
+  height: 300px;
+  background-color: #27ae60;
+  color: white;
+  font-size: 28px;
+}
+li
+{
+  line-height:100%;
+  margin: 20px;
+}
+.education
+{
+  height: 300px;
+  background-color:#16a085;
+}
+.a_education
+{
+
+  color: white;
+  font-size: 30px;
+  height: 300px;
+background-color:#8e44ad;
+}
+.projects
+{
+  height: 300px;
+  background-color: #f1c40f;
+}
+.a_projects
+{
+  line-height: 200%;
+  color: white;
+  height: 300px;
+  background-color: #e67e22;
+  font-size: 30px;
+}
+.a_projects a
+{
+  color: green;
+  text-decoration: none;
+}
+#front
+{
+  margin-left: 45%;;
+  text-decoration: none;
+  border-radius: 15px;
+  background-color:#c0392b;
+  padding: 2px 6px 2px 6px;
+  text-align: center;
+  font-size: 30px;
+}
+#front:hover{
+box-shadow: 3px 3px 3px black;
+text-decoration: none;
+color: white
+}
+.languages
+{
+  height: 400px;
+  background-color: #2c3e50;
+}
+.a_languages
+{
+  color: white;
+  height: 400px;
+  background-color: #e74c3c;
+  font-size: 30px;
+}

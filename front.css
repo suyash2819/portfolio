@@ -1,0 +1,62 @@
+body, html{
+  margin: 0;
+  height: 100%;
+}
+  .bg{
+    background-image: url('suyash4.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    filter: blur(5px);
+  }
+  #name{
+//  font-family: 'Open Sans', sans-serif;
+  font-family: 'Lato', sans-serif;
+  letter-spacing: 5px;
+  word-spacing: 15px;
+    font-size: 50px;
+    color: white;
+    position: absolute;
+    top: 40%;
+    left: 28%;
+  }
+  #intro
+  {
+    font-family: 'Bellefair', serif;
+    position: absolute;
+    top: 52%;
+    left: 15%;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+  }
+  @media only screen and (max-width: 1200px) {
+    #name{
+      left: 25%;
+    }
+  }
+.links
+{
+  position: absolute;
+  top: 58%;
+  left: 40%;
+}
+.links a{
+  text-decoration: none;
+  margin:10px;
+  padding: 5px;
+  font-size: 40px;
+  color: white;
+  font-family: 'Amatic SC', cursive;
+  border-width: 1px;
+  border-style: solid ;
+  border-color: white;
+}
+.links a:hover
+{
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  
+}
